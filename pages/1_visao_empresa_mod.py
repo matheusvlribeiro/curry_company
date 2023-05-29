@@ -115,7 +115,7 @@ def country_maps(df1):
 # ================================= INICIO DA ESTRUTURA LOGICA DO CODIGO ===================================
 
 
-df = pd.read_csv('train.csv')
+df = pd.read_csv('dataset/train.csv')
 df1 = df.copy()
 print(df1.shape)
 
